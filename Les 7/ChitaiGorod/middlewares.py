@@ -3,7 +3,6 @@ from scrapy import signals
 
 class ChitaigorodSpiderMiddleware(object):
 
-
     @classmethod
     def from_crawler(cls, crawler):
         s = cls()
