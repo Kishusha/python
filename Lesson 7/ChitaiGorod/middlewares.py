@@ -1,7 +1,8 @@
 from scrapy import signals
 
 
-class JobParserSpiderMiddleware(object):
+class ChitaigorodSpiderMiddleware(object):
+
 
     @classmethod
     def from_crawler(cls, crawler):
@@ -27,7 +28,7 @@ class JobParserSpiderMiddleware(object):
         spider.logger.info('Spider opened: %s' % spider.name)
 
 
-class JobParserDownloaderMiddleware(object):
+class ChitaigorodDownloaderMiddleware(object):
 
     @classmethod
     def from_crawler(cls, crawler):
